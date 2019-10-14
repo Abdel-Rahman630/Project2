@@ -1,0 +1,693 @@
+/* Start Global */
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    overflow: hidden
+}
+
+/* End Global */
+
+/********* Start Overriding Bootstrap **********/
+
+/* Start Navbar */
+
+.container-fluid {
+    padding-left: 40px;
+    padding-right: 40px
+}
+
+.navbar {
+    border: 0;
+    min-height: 70px
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    background: teal;
+    color: white;
+    margin-right: 15px;
+    font-size: 16px;
+    padding-left: 28px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    min-width: 100px;
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+.navbar-inverse .navbar-nav>li>a,
+.navbar-inverse .navbar-brand {
+    color: #b5b5b5;
+    padding-top: 25px;
+    padding-bottom: 25px
+}
+
+.navbar-inverse .navbar-brand {
+    font-size: 30px
+}
+
+.navbar-inverse .navbar-brand span {
+    padding-left: 5px;
+    font-size: 25px;
+    color: teal;
+}
+
+.dropdown-menu {
+    background: #222
+}
+
+.navbar-nav>li>.dropdown-menu {
+    border-top: 3px solid teal
+}
+
+.dropdown-menu>li>a {
+    padding: 6px 20px;
+    color: #fff;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+    background: #11d4c1;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.dropdown-menu .divider {
+    height: 2px;
+    background: #034e4e;
+    min-width: 200px
+}
+
+.navbar-toggle {
+    margin-top: 18px;
+    margin-bottom: 18px
+}
+
+/* End Navbar */
+
+/* Start Carousel */
+
+.carousel {
+    margin-top: 70px;
+    max-height: 600px;
+    overflow: hidden;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+    width: 100%
+}
+
+.carousel-indicators .active {
+    background: teal
+}
+
+.carousel-indicators .active,
+.carousel-indicators li {
+    width: 14px;
+    height: 14px;
+    margin-right: 2px
+}
+
+.carousel .carousel-inner {
+    height: 100%
+}
+.carousel .item {
+    height: 100%
+}
+
+.carousel .item .carousel-caption {
+    bottom: 35px
+}
+
+/* End Carousel */
+
+/* Start About */
+
+.about {
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+.about h1 {
+    font-weight: bold
+}
+
+.about span {
+    color: teal;
+}
+
+.about .lead {
+    color: #888;
+    margin-top: 15px
+}
+
+/* End About */
+
+/* Start Features */
+
+.features {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #eee
+}
+
+.features h1 {
+    margin-bottom: 60px
+}
+
+.features .feat {
+    margin-bottom: 30px
+}
+
+.features .feat .glyphicon {
+    font-weight: bold;
+    font-size: 20px
+}
+
+.features .feat h3 {
+    color: black
+}
+
+.features .feat p {
+    color: #797979
+}
+
+/* End Features */
+
+/* Start Testimonials */
+
+.testimonials {
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+.testimonials h1 {
+    margin: 25px 0 50px 0;
+    font-weight: bold
+}
+
+.testimonials .carousel {
+    height: auto;
+    margin-top: 0
+}
+
+.testimonials .carousel .lead {
+    line-height: 2em;
+    margin-bottom: 10px
+}
+
+.testimonials .carousel .carousel-inner {
+    min-height: 180px
+}
+
+.testimonials .carousel .carousel-indicators {
+    position: static;
+    width: 100%;
+    margin-left: auto;
+    padding-top: 20px
+}
+
+.testimonials .carousel .carousel-indicators li {
+    width: 80px;
+    height: 80px;
+    text-indent: 0;
+    overflow: hidden;
+    border-radius: 50%;
+    opacity: .4;
+    border: 2px solid white;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.testimonials .carousel .carousel-indicators li.active {
+    opacity: 1;
+    background: none;
+    border: 2px solid teal
+}
+
+.testimonials .carousel .carousel-indicators li img {
+    width: 100%;
+    height: 100%
+}
+
+.testimonials span {
+    font-size: 22px;
+    font-weight: bold;
+    color: teal
+}
+
+/* End Testimonials */
+
+/* Start Price Table */
+
+.price-table {
+    padding: 40px 0;
+    background: #eee
+}
+
+.price-table h1 {
+    margin-bottom: 55px
+}
+
+.price-table .price-box {
+    background: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px
+}
+
+.price-table .price-box h2 {
+    margin: 10px 0 15px
+}
+
+.price-table .price-box p {
+    font-size: 35px;
+    color: #666666bf;
+    font-weight: bold;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background: #e6e6e6b0;
+    border-radius: 50%;
+    border: 2px solid white;
+    -webkit-transition-duration: 0.7s;
+    -moz-transition-duration: 0.7s;
+    -o-transition-duration: 0.7s;
+    transition-duration: 0.7s;
+}
+
+.price-table .price-box:hover p {
+    -webkit-transform: scale(1.1,1.1) rotate(360deg);
+    -moz-transform: scale(1.1,1.1) rotate(360deg);
+    -o-transform: scale(1.1,1.1) rotate(360deg);
+    transform: scale(1.1,1.1) rotate(360deg);
+    border: 2px solid #dfdfdf
+}
+
+.price-table .price-box ul {
+    line-height: 250%;
+    font-size: 18px
+}
+
+.price-table .price-box a {
+    margin-bottom: 10px;
+}
+
+/* End Price Table */
+
+/* Start Our Team */
+
+.our-team {
+    background-image: url("https://i.ibb.co/6mCtwPY/liverpool-footballer-mohamed-salah.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    min-height: 600px;
+}
+
+.overlay {
+    background: rgba(2,2,2,0.8);
+    color: white;
+    min-height: 600px;
+    padding-top: 40px;
+    padding-bottom: 40px
+}
+
+.our-team h1 {
+    margin-bottom: 60px;
+}
+
+.our-team .person {
+    margin-bottom: 60px
+}
+
+.our-team .person img {
+    width: 200px;
+    height: 200px
+}
+
+.our-team .person h3 {
+    font-weight: bold;
+    margin-top: 35px
+}
+
+.our-team .person .lead {
+    color: #ababab;
+    line-height: 1.6;
+    padding-top: 20px;
+}
+
+.our-team .person svg {
+    font-size: 30px;
+    margin-right: 5px;
+    margin-top: 30px
+}
+
+/* End Our Team */
+
+/* Start Subscribe */
+
+.subscribe {
+    padding: 70px 0 90px;
+    background: #eee
+}
+
+.subscribe h1 {
+    color: #888;
+    letter-spacing: 2px;
+    margin-bottom: 30px
+}
+
+.subscribe p {
+    margin-bottom: 50px;
+}
+
+.subscribe .form-control {
+    border-radius: 0;
+    margin-right: -5px;
+    width: 450px;
+    height: 39px
+}
+
+.subscribe button {
+    border-radius: 0;
+    font-size: 18px
+}
+
+.subscribe button svg {
+    margin-right: 5px
+}
+
+/* End Subscribe */
+
+/* Start statistics */
+
+.statistics {
+    min-height: 300px;
+    background-image: url("https://i.ibb.co/DMZmSMX/2018-04-23-T163905-Z-1759630243-RC118-DACDF00-RTRMADP-3-SOCCER-CHAMPIONS-LIV-ROM-PREVIEW.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed
+}
+
+.statistics .overlay {
+    min-height: 300px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    color: #b6b5b5
+}
+
+.statistics h1 {
+    margin-bottom: 60px
+}
+
+.statistics .stats {
+    margin-bottom: 50px;
+    transition:  all .1s ease-in-out
+}
+
+.statistics .stats:hover {
+    color: white
+}
+
+.statistics p {
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 20px;
+    margin-bottom: 0
+}
+
+.statistics span {
+    font-size: 18px;
+
+}
+/* End statistics */
+
+/* Start Our Skills */
+
+.our-skills {
+    padding: 60px 0
+}
+
+.our-skills h1 {
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.our-skills h3 {
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 0
+}
+
+.our-skills .progress {
+    height: 35px;
+    margin-bottom: 29px
+}
+
+.our-skills .progress .progress-bar {
+    line-height: 35px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 10px
+}
+
+/* End Our Skills */
+
+/* Start Contact Us */
+
+.contact-us {
+    background-image: url('https://i.ibb.co/XzV3D0q/1-JS163301393.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 300px
+}
+
+.contact-us .overlay {
+    min-height: 300px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    color: white
+}
+
+.contact-us p {
+    margin-bottom: 40px;
+    color: #ffffffad
+}
+
+.contact-us textarea {
+    height: 108px
+}
+
+.contact-us input[type="text"],
+.contact-us textarea {
+    background: rgba(82,78, 78, 0.7);
+    color: white;
+    border: none
+}
+
+.contact-us button {
+    background: teal;
+    border: none;
+}
+
+/* End Contact Us */
+
+/* Start Our-Clients */
+
+.our-clients {
+    background: #eee;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+.our-clients img {
+    width: 180px;
+    height: 180px;
+    opacity: 0.4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition:  all 0.3s ease-in-out
+}
+
+.our-clients img:hover {
+    opacity: 1;
+}
+
+/* End Our Clients */
+
+/* Start Footer */
+
+.footer {
+    background: #111;
+    color: #aaa;
+    padding: 40px 0 0;
+}
+
+.footer a {
+    color: #aaa
+}
+
+.footer a:hover {
+    color: white
+}
+
+.footer h3 {
+    color: #0895d1;
+    letter-spacing: 1px;
+    margin: 30px 0 20px
+}
+
+.footer .three-col {
+    overflow: hidden;
+}
+
+.footer .three-col li {
+    width: 33.3333%;
+    float: left;
+    padding: 5px
+}
+
+.footer .social-list {
+    overflow: hidden;
+    margin: 25px 0 10px
+}
+
+.footer .social-list li {
+    float: left;
+    opacity: 0.5;
+    transition:  all 0.1s ease-in-out;
+    font-size: 25px;
+    margin-right: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.footer .social-list li:hover {
+    opacity: 1
+}
+
+.footer .img-size {
+    width: 64px;
+    height: 64px
+}
+
+.footer .img-thumbnail {
+    width: 150px;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid #444;
+    margin-bottom: 10px
+}
+
+.footer .copyright {
+    background: #333;
+    color: #aaa;
+    padding: 15px 0;
+    margin-top: 50px;
+    font-size: 20px
+}
+
+.footer .copyright span {
+    color: teal
+}
+
+/* End Footer */
+
+/* Start Media Query */
+
+@media (max-width: 770px) {
+    .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+        margin-right: 0;
+        padding: 15px 0 15px 15px;
+        margin-bottom: 5px
+    }
+
+    .navbar-inverse .navbar-nav>li>a {
+        margin-right: 0;
+        padding: 15px 0 15px 15px;
+    }
+}
+
+
+
+@media (max-width: 767px) {
+
+    .subscribe form .form-control {
+        margin-right: 0;
+        margin: auto;
+        margin-bottom: 20px
+    }
+
+}
+
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+    max-height: none
+}
+
+/* End Media Query */
+
+/* Start Option-box */
+
+.option-box {
+    position: fixed;
+    top: 100px;
+    left: 0
+}
+
+.option-box .color-option {
+    float: left;
+    background: #333;
+    color: white;
+    padding: 10px;
+    width: 200px;
+    border: 4px solid teal;
+    display: none
+}
+
+.option-box .color-option ul li {
+    height: 23px;
+    width: 23px;
+    background: teal;
+    display: inline-block;
+    margin-right: 5px;
+    cursor: pointer
+}
+
+.option-box .cog-check {
+    cursor: pointer;
+    color: white;
+    background: teal;
+    padding: 5px
+}
+
+/* End OPtion bOX */
+
+/* Start Scroll Top */
+
+.scroll-top {
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    cursor: pointer;
+    font-size: 40px;
+    background: teal;
+    color: white;
+    border: none;
+    display: none
+}
+
+/* End Scroll Top */

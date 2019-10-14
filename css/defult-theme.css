@@ -1,0 +1,24 @@
+/* Start Defualt Theme */
+.tool-box .color-option {border: 3px solid teal}
+.tool-box .color-option ul li,
+.tool-box .gear-check,
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.carousel-indicators .active,
+#scroll-top {background-color: teal}
+.dropdown-menu .divider {background-color: #289393}
+.carousel-indicators li {border-color: #289393}
+.navbar-inverse .navbar-brand span,
+.about h1 span,
+.features .feat span.glyphicon,
+.testimonials span,
+.price-table .price-box p,
+.footer h3,
+.footer .copyright span {color: teal}
+.dropdown-menu {border-top: 3px solid teal}
+.testimonials .carousel-indicators li.active,
+.price-table .price-box:hover p {border: 2px solid teal}
+/* End Defualt Theme */

@@ -1,0 +1,93 @@
+/* Start About Us */
+
+.breadcrumb-holder {
+    background-color: #F5F5F5;
+}
+
+.about-us {
+    padding-top: 70px;
+    padding-bottom: 70px
+}
+
+.about-us h1 {
+    font-size: 85px;
+    letter-spacing: -3px;
+    font-weight: bold
+}
+
+.about-us hr {
+    width: 70%
+}
+
+.breadcrumb {
+    margin-bottom: 8px
+}
+
+.about-features {
+    padding-bottom: 70px
+}
+
+.about-features h3 {
+    font-weight: bold
+}
+
+.about-features p {
+    color: #575757;
+    margin-bottom: 40px
+}
+
+.about-ceo {
+    background-color: #EEE;
+    padding-top: 40px
+}
+
+.about-ceo h2 {
+    font-weight: bold
+}
+
+.about-ceo .lead {
+    line-height: 1.8
+}
+
+.about-ceo .btn-primary {
+    background-color: #333;
+    border-color: #333;
+    margin-bottom: 20px;
+    display: inline-block
+}
+
+/* End About Us */
+
+/* Start FAQ */
+
+.faq {
+    padding: 40px 0
+}
+
+.faq h1 {
+    letter-spacing: -4px;
+    font-size: 70px;
+    font-weight: bold
+}
+
+.faq hr {
+    width: 70%
+}
+
+.faq-questions .panel-heading {
+    padding: 15px
+}
+
+.faq-questions .panel-heading a:after {
+    font-family: 'Glyphicons Halflings';
+    content: '\e114';
+    float: right;
+    color: #444
+}
+
+.faq-questions .panel-heading a.collapsedd:after {
+    content: '\e080';
+    color: #999
+}
+
+/* End FAQ */

@@ -1,0 +1,44 @@
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover,
+.carousel-indicators .active ,
+.subscribe button,
+.our-skills .skills-info button,
+.contact-us button,
+.option-box .cog-check,
+.scroll-top
+{background: #9300ff !important}
+
+.navbar-inverse .navbar-brand span,
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev,
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next,
+.about span,
+.features h1,
+.features .feat .glyphicon,
+.testimonials h1,
+.testimonials span,
+.price-table h1,
+.our-team h1,
+.our-team h3,
+.subscribe h1,
+.statistics h1,
+.statistics  .stats,
+.our-skills h1,
+.our-skills .skills-info h3,
+.contact-us svg,
+.contact-us h1,
+.footer h3,
+.footer .copyright span
+{color: #9300ff !important}
+
+.navbar-nav>li>.dropdown-menu {border-top-color: #673AB7 !important} 
+
+.testimonials .carousel .carousel-indicators li.active,
+.price-table .price-box p, 
+.subscribe button,
+.our-skills .skills-info button,
+.option-box .color-option
+{border-color: #9300ff !important}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {background: #9500ff94 !important}
+.dropdown-menu .divider {background: #6600af !important;}
+.price-table .price-box p {background: #c372ff59  !important}

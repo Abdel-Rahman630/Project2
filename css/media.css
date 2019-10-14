@@ -1,0 +1,19 @@
+@media (max-width: 767px) {
+    .navbar-inverse .navbar-nav > li > a {padding-top: 10px; padding-bottom: 10px}
+    .subscribe .form-control {margin: 20px auto; width: 400px}
+    .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {max-height: none}
+    .img-footer {text-align: center}
+    
+}
+
+@media (max-width: 1000px) {
+    .articles-footer {float: left}
+    .img-footer { float: left}
+    nav {z-index: 555555}
+}
+
+@media (max-width: 640px) {
+
+    .img-footer { float: left; padding: 0 100px 0 100px }
+
+}
